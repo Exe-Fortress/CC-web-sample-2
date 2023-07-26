@@ -1,4 +1,4 @@
-NAMAUSER=Exe-Fortress
+NAMAUSER=AHM
 docker rm -f aws1-$NAMAUSER
 docker run -it --name aws1-$NAMAUSER \
 	-e USERNAME=$NAMAUSER \
